@@ -12,14 +12,14 @@ body {
 
 .calculator-container {
     width: 400px;
-    margin: 100px auto;
+    margin: 90px auto 0 auto;
 }
 
 .display-box {
     color: #ffffff;
     text-align: right;
     font-size: 60px;
-    padding: 20px;
+    margin: 20px 75px 20px 0;
 }
 
 .keypad-table tr:first-child .keys {
@@ -27,6 +27,7 @@ body {
 }
 
 .keypad-table tr:first-child .keys:active {
+    border-radius: 90px;
     background-color: #a5a5a590;
 }
 
@@ -35,15 +36,16 @@ body {
 }
 
 .keypad-table tr td:last-child .keys:active {
+    border-radius: 90px;
     background-color: #ffa45ccc;
 }
 
 .keys {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border: 1px solid black;
     text-align: center;
-    line-height: 90px;
+    line-height: 70px;
     border-radius: 90px;
     margin: 5px;
     background-color: #333333;
@@ -53,9 +55,11 @@ body {
 }
 
 .keys:active {
+    border-radius: 90px;
     background-color: #33333390;
 }
 
 .keys:hover {
+    border-radius: 90px;
     opacity: 70%;
 }
