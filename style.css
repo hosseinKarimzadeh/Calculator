@@ -19,7 +19,7 @@ body {
     color: #ffffff;
     text-align: right;
     font-size: 60px;
-    margin: 20px 75px 20px 0;
+    margin: 20px 80px 20px 0;
 }
 
 .keypad-table tr:first-child .keys {
@@ -62,4 +62,10 @@ body {
 .keys:hover {
     border-radius: 90px;
     opacity: 70%;
+}
+
+@media screen and (max-width:500px) {
+    .calculator-container {
+        margin: 90px 0 0 auto;
+    }
 }
