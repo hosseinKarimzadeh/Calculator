@@ -66,6 +66,6 @@ body {
 
 @media screen and (max-width:500px) {
     .calculator-container {
-        margin: 90px 0 0 auto;
+        margin: 120px 0 0 auto;
     }
 }
